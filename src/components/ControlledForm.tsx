@@ -1,5 +1,5 @@
 import { FormEvent } from 'react'
-import useInputState from '../hooks/useinput'
+import useInputState from '../hooks/useInput'
 
 const ControlledForm = () => {
   const userEmail = useInputState('')
